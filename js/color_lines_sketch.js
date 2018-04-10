@@ -9,9 +9,7 @@ sketchCollection["color_lines_sketch"] = {
 
     init : function(parentElement) {
         this.parentElement = parentElement;
-        $("<div id='backgroundsketch'></div>").prependTo(parentElement)[0];
-        console.log($("div#backgroundsketch"));
-        this.canvas = $("<canvas />").prependTo("div#backgroundsketch")[0];
+        this.canvas = $("<canvas class='backgroundsketch'></div>").prependTo(parentElement)[0];
 
         this.processingInstance = new Processing(this.canvas, this.sketchCode);
         this.setSketchSize();
@@ -39,6 +37,7 @@ sketchCollection["color_lines_sketch"] = {
         var imageData = sketchCanvasContext.getImageData(0, 0, oldWidth, oldHeight);
 
         this.setSketchSize();
+        this.processingInstance.sketchResized();
 
         // apply saved image data
         var newWidth = this.canvas.width;

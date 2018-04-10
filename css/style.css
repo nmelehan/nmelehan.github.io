@@ -70,15 +70,37 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
+	padding: 60px 0px 0px;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
 .profile #header {
-	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 10px;
 	text-align: center;
 	position: relative;
+}
+
+.profile #header section {
+	/* border-width: 10px 2px 2px 2px;
+	border-style: solid;
+	border-color: black; */
+	/* background-color: rgba(254,251,239,.95); */
+	background: rgba(254,251,239,.95);
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	text-align: center;
+	position: relative;
+	/* background-color: rgba(254,251,239,.95); */
+	background: black;
+}
+
+.profile #header section:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .profile #avatar {
@@ -86,21 +108,32 @@ h2 {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	opacity: 0;
 }
 
 .profile h1 {
-	font-weight: 400;
+	position: relative;
+	float: left;
+	font-weight: 800;
 	letter-spacing: 0px;
 	font-size: 20px;
-	color: #222;
+	color: rgba(254,251,239,.95);
+	margin-bottom: 15px;
+}
+
+.profile h1.name {
+	border-right: 3px solid rgba(254,251,239,1);
+	padding-right: 10px;
+	margin-right: 10px;
 }
 
 .profile h2 {
+	position: relative; 
+	float: left;
 	font-size: 20px;
-	  font-weight: 300;
-	  color: #aaa;
-	  margin-top: 10px;
+	  font-weight: 400;
+	  color: #000;
 	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	  font-style: normal;
 
@@ -111,8 +144,8 @@ nav.main-nav {
 
 	/*max-width: 600px;*/
 	/*width:100%;*/
-	background: #fff;
-	background: rgba(255,255,255,.90);
+	/* background: #fff;
+	background: rgba(255,255,255,.90); */
 	margin: 0 auto;
 	text-align: right;
 	/*position: fixed;*/
@@ -124,8 +157,8 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #5badf0;
-	font-size: 13px;
-	/*font-weight: bold;*/
+	font-size: 16px;
+	font-weight: bold;
 	line-height: 1.35;
 	border-radius: 3px;
 
@@ -222,20 +255,51 @@ em, i { font-style: italic; }
 }
 
 .post header {
+	position: relative;
 	text-align:center;
+	padding-top: 50px;
+	border: 3px #000 solid;
+	border-radius: 3px;
+	background: linear-gradient(rgba(254,251,239,0), rgba(254,251,239,.25));
+	margin-bottom: 40px;
+}
 
+.post header section {
+	margin: 0 0 -1px 0;
+}
+
+.post #post-header h1,h2 {
+	margin: 0 20px 0 20px;
+}
+
+.post header section {
+	background: black;
+}
+
+
+.post #post-body h1,h2 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.post #post-body li {
+	margin-top: 10px;
+}
+
+.post #post-body li {
+	padding-left: 40px;
 }
 
 .post h1 {
 	margin-bottom: 0px;
 	color: #222;
-	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 800 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
 	margin-top: 40px;
 	margin-bottom: 10px;
-	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font: 600 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
 
@@ -246,9 +310,10 @@ em, i { font-style: italic; }
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
-	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
-	color: #b2b9be;
+	padding-right: 20px; 
+	font: 800 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 15px 0 15px 0;
+	color: rgba(254,251,239);
 	  font-size: 13px;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
@@ -258,7 +323,7 @@ em, i { font-style: italic; }
 
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #aaa;
+	color: #000;
 	max-width: 400px;
 	margin-top: 2px;
 }
@@ -277,7 +342,7 @@ h6 {
 }
 
 p.small {
-	color: #bbb;
+	color: #000;
 	font-size: 14px;
 	line-height: 1.5;
 	display: block;
@@ -385,15 +450,18 @@ Post List
 }
 
 #post-list li,#archive-list li {
-	border-top: 1px solid #eee;
+	border-top: 2px solid #000;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	list-style-type: none;
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	background-color: rgba(254,251,239,.95);
 }
 
 #post-list li:last-child {
-	border-bottom: 1px solid #eee;
+	/* border-bottom: 2px solid #000; */
 }
 
 #post-list a {
@@ -406,8 +474,8 @@ Post List
 	float: right;
 	position: relative;
 	top: 1px;
-	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #bbb;
+	font: 600 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	color: #000;
 }
 
 #post-list-footer {
@@ -443,7 +511,7 @@ Post List
 
 /* Post Page */
 .post {
-	margin: 80px 0 0 0;
+	margin: 20px 0 0 0;
 }
 
 #post-meta {
@@ -652,14 +720,14 @@ h2.month {
 }
 
 a.symbol {
-    color: #cdd4da;
+    color: #000;
     font-size: 2rem;
     text-decoration: none;
     margin-right: 0.3rem;
 }
 
 a.symbol:hover {
-    color: #BCD4DA;
+    color: #5badf0;
 }
 
 code {
@@ -669,7 +737,7 @@ code {
 	font-weight: 600;
 }
 
-div#backgroundsketch {
+canvas.backgroundsketch {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -681,12 +749,3 @@ div#backgroundsketch {
 
 	z-index: -1;
 }
-
-/* div#backgroundsketch canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	z-index: -1;
-} */
