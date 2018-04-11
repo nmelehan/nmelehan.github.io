@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nathan Melehan</title>
-    <link>https://nathan.exchange/posts/</link>
+    <link>http://nathan.exchange/posts/</link>
     <description>Recent content in Posts on Nathan Melehan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nathan.exchange/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nathan.exchange/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Customizing a Hugo theme with an animated P5.js background</title>
-      <link>https://nathan.exchange/posts/p5js-background-for-hugo/</link>
+      <link>http://nathan.exchange/posts/p5js-background-for-hugo/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nathan.exchange/posts/p5js-background-for-hugo/</guid>
+      <guid>http://nathan.exchange/posts/p5js-background-for-hugo/</guid>
       <description>This post will outline how to install an animated, interactive background in an existing Hugo theme. An example of this can be seen on the home page for this blog:
   Example animation   Prerequisites This guide will assume that Hugo has already been installed on your system: Install Hugo. This guide will begin with the creation of a new Hugo site on your system.
 Before proceeding, I&amp;rsquo;ll define some relevant terms:</description>
@@ -24,10 +24,10 @@ Before proceeding, I&amp;rsquo;ll define some relevant terms:</description>
     
     <item>
       <title>Work Desk Routing Project</title>
-      <link>https://nathan.exchange/posts/work-desk-routing-project/</link>
+      <link>http://nathan.exchange/posts/work-desk-routing-project/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nathan.exchange/posts/work-desk-routing-project/</guid>
+      <guid>http://nathan.exchange/posts/work-desk-routing-project/</guid>
       <description>This is just a photo series of a work desk I have been building. There&amp;rsquo;s a location in Philadelphia called NextFab that has a bunch of useful tooling, and I&amp;rsquo;m enjoying this project a lot: NextFab.
 The table measures about 2.5&amp;rsquo; wide by 7&amp;rsquo; long, and it&amp;rsquo;s a standing height desk:
   Assembled, pre-routing   The plywood was not the highest level of furniture-grade, so it was cheaper, but it also meant that it had some ugly imperfections on the surface.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Woodworking on Nathan Melehan</title>
-    <link>https://nathan.exchange/tags/woodworking/</link>
+    <link>http://nathan.exchange/tags/woodworking/</link>
     <description>Recent content in Woodworking on Nathan Melehan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nathan.exchange/tags/woodworking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nathan.exchange/tags/woodworking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Work Desk Routing Project</title>
-      <link>https://nathan.exchange/posts/work-desk-routing-project/</link>
+      <link>http://nathan.exchange/posts/work-desk-routing-project/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://nathan.exchange/posts/work-desk-routing-project/</guid>
+      <guid>http://nathan.exchange/posts/work-desk-routing-project/</guid>
       <description>This is just a photo series of a work desk I have been building. There&amp;rsquo;s a location in Philadelphia called NextFab that has a bunch of useful tooling, and I&amp;rsquo;m enjoying this project a lot: NextFab.
 The table measures about 2.5&amp;rsquo; wide by 7&amp;rsquo; long, and it&amp;rsquo;s a standing height desk:
   Assembled, pre-routing   The plywood was not the highest level of furniture-grade, so it was cheaper, but it also meant that it had some ugly imperfections on the surface.</description>
